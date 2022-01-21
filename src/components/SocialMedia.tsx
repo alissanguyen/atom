@@ -4,9 +4,8 @@ import Twitter from "../assets/twitter.png";
 import Linkedin from "../assets/linkedin.png";
 import Instagram from "../assets/instagram.png";
 
-interface Props {}
 
-const SocialMedia: React.FC<Props> = ({}) => {
+const SocialMedia: React.FC= () => {
   return (
     <div className="sm-list">
       <a href="/" className="sm-link">

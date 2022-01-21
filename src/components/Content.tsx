@@ -2,9 +2,8 @@ import * as React from "react";
 import image4 from "../assets/liq-4.png";
 import image5 from "../assets/liq-5.png";
 import SocialMedia from "./SocialMedia";
-interface Props {}
 
-const Content: React.FC<Props> = ({}) => {
+const Content: React.FC = () => {
   return (
     <div className="content">
       <div className="content-details">
